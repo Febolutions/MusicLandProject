@@ -529,3 +529,100 @@ div.desc2 {
 .nav_menu__link_btn:hover {
     color: #9c0483;
 }
+
+
+/*LOGIN ELEMENTS*/
+
+.login {
+    background-image: url("./assets/login-back.jpg");
+    opacity: 70%;
+    width: 100%;
+    height: 600px;
+    margin: 0%;
+    padding: 2%;
+}
+
+.textLogin {
+    text-align: center;
+    font-size: 50px;
+    letter-spacing: 10px;
+    color: rgb(221, 194, 38);
+}
+
+.text_loginP {
+    text-align: center;
+    font-size: 25px;
+    color: white;
+    padding: 1%;
+}
+
+.login_div {
+    display: grid;
+    justify-content: center;
+    grid-template-rows: 50px;
+    margin: 3%;
+}
+
+.login {
+    width: 100%;
+    margin: 0%;
+    background-color: #240319;
+}
+
+.login_grid {
+    display: grid;
+    grid-template-columns: 10%;
+    grid-template-rows: 70px;
+    background-color: none;
+    justify-content: center;
+}
+
+.login_grid-item {
+    background-color: none;
+    padding: 0%;
+    text-align: center;
+    justify-items: center;
+}
+
+.login-input {
+    font-size: 25px;
+    margin-bottom: 25px;
+    justify-content: center;
+    width: 350px;
+    height: 40px;
+    border-radius: 20px;
+    border-style: none;
+    box-shadow: #0D0114 15px;
+    border-color: none;
+}
+
+.login-text1 {
+    font-size: 20px;
+    color: #f4d41e;
+    margin: 4%;
+    padding: 0%;
+}
+
+.button-login {
+    background-color: #f4511e;
+    border: none;
+    width: 100px;
+    height: 40px;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    font-size: 16px;
+    margin-top: 4%;
+    margin-left: 35%;
+    opacity: 0.6;
+    transition: 0.3s;
+    display: inline-block;
+    text-decoration: none;
+    cursor: pointer;
+    border-radius: 15px;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.button-login:hover {
+    opacity: 1
+}
