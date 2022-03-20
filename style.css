@@ -178,6 +178,7 @@ div.desc {
 .radio_h1 {
     color: #f4511e;
     font-size: 35px;
+    font-display: flex;
     text-align: center;
     padding-top: 5%;
 }
@@ -193,15 +194,14 @@ div.desc {
 
 .footer_grid {
     display: grid;
-    grid-template-columns: auto auto auto;
+    grid-template-columns: auto auto 35%;
     grid-template-rows: 200px;
     background-color: none;
 }
 
 .footer_grid-item {
     background-color: none;
-    border: 1px solid transparent;
-    padding: 2px;
+    padding: 0%;
     text-align: center;
 }
 
@@ -221,7 +221,6 @@ div.desc {
     font-size: 15px;
     color: #f4901e;
     line-height: 25px;
-    padding-top: 5%;
 }
 
 .footer_label {
@@ -232,38 +231,28 @@ div.desc {
 
 /*SOCIAL MEDIA ICONS*/
 
-.fa {
-    padding: 20px;
-    font-size: 30px;
-    width: 30px;
-    text-align: center;
-    text-decoration: none;
-    margin: 5px 2px;
-    border-radius: 50%;
-}
-
-.fa:hover {
-    opacity: 0.7;
-}
-
 .fa-facebook {
-    background: #3B5998;
     color: white;
-}
-
-.fa-twitter {
-    background: #55ACEE;
-    color: white;
-}
-
-.fa-youtube {
-    background: #bb0000;
-    color: white;
+    padding: 2%;
+    padding-top: 5%;
 }
 
 .fa-instagram {
-    background: #125688;
     color: white;
+    padding: 2%;
+    padding-top: 5%;
+}
+
+.fa-youtube {
+    color: white;
+    padding: 2%;
+    padding-top: 5%;
+}
+
+.fa-github {
+    color: white;
+    padding: 2%;
+    padding-top: 5%;
 }
 
 
@@ -438,5 +427,9 @@ div.desc {
         content: "";
         display: table;
         clear: both;
+    }
+    .footer_image {
+        height: 50px;
+        padding-top: 2%;
     }
 }
