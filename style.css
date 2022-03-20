@@ -465,6 +465,15 @@ div.desc {
     padding: 2%;
 }
 
+.catalogueP {
+    background-image: url("./assets/404920-concert.jpg");
+    opacity: 70%;
+    width: 100%;
+    height: 550px;
+    margin: 0%;
+    padding: 2%;
+}
+
 .catalogueG {
     background-color: #460B32;
 }
@@ -485,4 +494,38 @@ div.desc2 {
     padding: 15px;
     text-align: center;
     font-size: 12px;
+}
+
+.text_pGallery {
+    text-align: center;
+    font-size: 50px;
+    letter-spacing: 10px;
+    color: rgb(26, 4, 36);
+}
+
+.text_catalogueP {
+    text-align: center;
+    font-size: 30px;
+    color: rgb(44, 76, 88);
+    padding: 1%;
+}
+
+.nav1>.nav_ul {
+    display: flex;
+    justify-content: center;
+}
+
+.nav_menu__link {
+    margin: 0 .75rem;
+    font-size: 20px;
+}
+
+.nav_menu__link_btn {
+    font-size: 20px;
+    color: #0a1825;
+    text-align: center;
+}
+
+.nav_menu__link_btn:hover {
+    color: #9c0483;
 }
