@@ -272,6 +272,10 @@ div.desc {
     width: 500px;
 }
 
+.iconCart {
+    height: 25px;
+}
+
 
 /*MENU*/
 
@@ -300,6 +304,20 @@ div.desc {
 
 .nav-link:hover {
     color: #CD054B;
+}
+
+.icon_button {
+    height: 5px;
+    background-color: #5a0623;
+    border-radius: 10px;
+    padding: 2%;
+}
+
+.icon_button:hover {
+    width: 30px;
+    height: 30px;
+    background-color: #CD054B;
+    border-radius: 20px;
 }
 
 
