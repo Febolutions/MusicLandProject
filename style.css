@@ -2,6 +2,7 @@ body {
     background: rgb(2, 0, 36);
     background: radial-gradient(circle, rgba(2, 0, 36, 1) 0%, rgba(121, 9, 92, 1) 49%, rgba(2, 39, 48, 1) 100%);
     background-attachment: fixed;
+    height: 600px;
 }
 
 * {
@@ -102,9 +103,9 @@ a {
 .catalogue {
     background-color: #460B32;
     width: 100%;
-    height: 1000px;
+    height: 650px;
     margin: 0%;
-    padding: 5%;
+    padding: 2%;
 }
 
 div.gallery {
@@ -117,7 +118,6 @@ div.gallery:hover {
     border-radius: 10%;
     background-color: #CD054B;
     cursor: pointer;
-    color: antiquewhite;
 }
 
 div.gallery img {
@@ -127,9 +127,9 @@ div.gallery img {
 }
 
 div.desc {
-    padding: 25px;
+    padding: 15px;
     text-align: center;
-    color: #CD054B;
+    font-size: 15px;
 }
 
 .responsive {
@@ -141,6 +141,22 @@ div.desc {
 .img_gallery {
     width: 50px;
     height: 50px;
+}
+
+.gallery_button {
+    color: #240319;
+}
+
+.gallery_button:hover {
+    color: white;
+}
+
+.h1_button {
+    color: #c2f41e;
+}
+
+.h1_button:hover {
+    color: #CD054B;
 }
 
 
@@ -164,6 +180,90 @@ div.desc {
     font-size: 35px;
     text-align: center;
     padding-top: 5%;
+}
+
+
+/*FOOTER SECTION*/
+
+.footer {
+    width: 100%;
+    margin: 0%;
+    background-color: #240319;
+}
+
+.footer_grid {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: 200px;
+    background-color: none;
+}
+
+.footer_grid-item {
+    background-color: none;
+    border: 1px solid transparent;
+    padding: 2px;
+    text-align: center;
+}
+
+.footer_image {
+    height: 150px;
+    padding-top: 2%;
+}
+
+.footer_h1 {
+    color: #CD054B;
+    font-size: 25px;
+    text-align: center;
+    padding-top: 2%;
+}
+
+.footerP {
+    font-size: 15px;
+    color: #f4901e;
+    line-height: 25px;
+    padding-top: 5%;
+}
+
+.footer_label {
+    font-size: 20px;
+    color: #f4511e;
+}
+
+
+/*SOCIAL MEDIA ICONS*/
+
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    border-radius: 50%;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+}
+
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+}
+
+.fa-youtube {
+    background: #bb0000;
+    color: white;
+}
+
+.fa-instagram {
+    background: #125688;
+    color: white;
 }
 
 
